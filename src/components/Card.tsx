@@ -42,7 +42,7 @@ const Card = ({ car }: Props) => {
         <div className="hidden group-hover:flex">
           <Button
             handleClick={() => setIsOpen(true)}
-            title="daha fazla"
+            title="More"
             designs="w-full py-[16px]"
             icon="right-arrow.svg"
           />
